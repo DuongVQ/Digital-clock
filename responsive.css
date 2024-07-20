@@ -1,0 +1,96 @@
+@media (max-width: 599px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+    .content h3 {
+        font-size: 16px;
+    }
+    .outer-wrapper {
+        padding: 20px 0;
+    }
+    .main div {
+        width: 15%;
+    }
+    .main .number {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 854px) {
+    .container {
+        max-width: 450px;
+        padding: 20px 60px;
+    }
+    .main {
+        gap: 8px;
+    }
+    p {
+        font-size: 8px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main .colon {
+        font-size: 20px;
+    }
+    .main div {
+        width: 16%;
+    }
+    .main .number {
+        font-size: 30px;
+    }
+    .btns {
+        margin-top: 20px;
+    }
+    .btn {
+        padding: 8 20px;
+        font-size: 10px;
+    }
+    .overlay img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1074px) {
+    .container {
+        max-width: 550px;
+        padding: 20px 60px;
+    }
+    .main {
+        gap: 8px;
+    }
+    .main div {
+        width: 18%;
+    }
+    .main .number {
+        font-size: 40px;
+    }
+    .btns {
+        margin-top: 20px;
+    }
+    .btn {
+        padding: 8 20px;
+        font-size: 10px;
+    }
+    .overlay img {
+        width: 800px;
+        height: 380px;
+    }
+}
+
+@media (min-width: 1075px) and (max-width: 1280px) {
+    .container {
+        padding: 25px 60px;
+    }
+    .overlay img {
+        width: 1000px;
+        height: 480px;
+    }
+}
